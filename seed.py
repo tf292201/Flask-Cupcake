@@ -23,6 +23,6 @@ c2 = Cupcake(
 
 db.session.add_all([c1, c2])
 db.session.commit()
-
+  l
 # Explicitly pop the application context
 app.app_context().pop()

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cupcakes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>See all the cupcakes!</h1>
+
+  <ul id="cupcakes-list" class="list-group">
+  </ul>
+
+  <h2>Add a new cupcake!</h2>
+
+  <form id="new-cupcake-form">
+    <div class="form-group">
+      <label for="form-flavor">Flavor: </label>
+      <input name="flavor" id="form-flavor" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="form-size">Size: </label>
+      <input name="size" id="form-size" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="form-rating">Rating: </label>
+      <input type="number" name="rating" id="form-rating" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="form-image">Image: </label>
+      <input name="image" id="form-image" class="form-control">
+    </div>
+
+    <button class="btn btn-primary">Add!</button>
+  </form>
+</div>
+
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="/static/script.js"></script>
+
+</body>
+</html>
